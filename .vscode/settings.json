@@ -1,0 +1,22 @@
+{
+    "highlight.regexes": {
+        "(\"@_[A-Z_1-9]+\": {},)": {
+            "filterFileRegex": ".*\\.arb",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#d19a66",
+                    "backgroundColor": "#d19a66",
+                    "color": "#282c34",
+                    "fontWeight": "bold"
+                }
+            ]
+        },
+    },
+    "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true, // цвета
+    "dart.previewFlutterUiGuides": true, // Иерархия линии
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "editor.codeActionsOnSave": { // исправить конст и тд
+        "source.fixAll": true
+    }
+}

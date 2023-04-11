@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>808376571033-nh11fpd5ck63g7afoualis1s0nn0g964.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.808376571033-nh11fpd5ck63g7afoualis1s0nn0g964</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1ppM7VcIhzGWK-hjPWW_q3fVqmOqQNfo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>808376571033</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>io.startcode.rawdah</string>
+	<key>PROJECT_ID</key>
+	<string>rawdah-5bcee</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rawdah-5bcee.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:808376571033:ios:3f1277e3452c402a03d408</string>
+</dict>
+</plist>
