@@ -51,7 +51,6 @@ class _TopicRowState extends State<TopicRow> {
   // -- Build --
   @override
   Widget build(BuildContext context) {
-    final isLearned = NamesRepository.topicComplete(widget.id, listBox.values);
     final isAvailable =
         NamesRepository.isAvailableTopic(widget.id, topicBox.values);
 

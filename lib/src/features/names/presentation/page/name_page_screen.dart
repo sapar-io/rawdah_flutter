@@ -1,3 +1,4 @@
+import 'package:audio_session/audio_session.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -26,6 +27,7 @@ class NamePageScreen extends ConsumerStatefulWidget {
 class _NamePageScreenState extends ConsumerState<NamePageScreen> {
   // -- Variables --
   AudioPlayer player = AudioPlayer();
+
   bool _isPlaying = false;
   late bool _isLearned;
   final listBox = Hive.box('learned_names');
@@ -51,11 +53,17 @@ class _NamePageScreenState extends ConsumerState<NamePageScreen> {
     }
   }
 
+  _setupAudioSession() async {
+    final session = await AudioSession.instance;
+    await session.configure(const AudioSessionConfiguration.music());
+  }
+
   // -- Init --
   @override
   void initState() {
     _isLearned = listBox.values.contains(widget.model.number);
     super.initState();
+    _setupAudioSession();
   }
 
   @override
